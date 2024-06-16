@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Обучающий комплекс по РПД "Объектно ориентированное программирование"</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main bg-image">
+        <button class="openbtn desktop-hidden" onclick="openNav()">☰</button>
+        <div id="mySidebar" class="sidebar">
+            <!-- <a href="javascript:void(0)" class="closebtn desktop-hidden" onclick="closeNav()">×</a> -->
+  
+  <div class="text-center">
+    <img src="../pics/Guu_firmeni_znak.png" alt="Эмблема" style="width:100px; height:auto;">
+    <h4 class="text-light">Обучающий комплекс по РПД "Объектно ориентированное программирование"</h4>
+  </div>
+  <a href="index.html">Главная страница</a>
+  <a href="lection.html">Основные лекционные материалы</a>
+  <a href="metod_mat.html">Методические материалы</a>
+  <a href="elec_res.html">Электронные ресурсы</a>
+  <a href="ocen_mat.html">Оценочные материалы</a>
+  <a href="matteh_obesp.html">Материально-техническое обеспечение для освоения дисциплины</a>
+  <a href="prog_obesp.html">Программное обеспечение для освоения дисциплины</a>
+</div>
+
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card text-white bg-dark mb-3" style="max-width: 50rem; font-size: 1.2rem;">
+      <div class="card-header" style="font-size: 2rem;">Основные лекционные материалы</div>
+      <div class="card-body">
+        <div class="row">
+          <!-- Колонка для первого текста -->
+          <div class="col-md-6">
+            <p class="card-text">
+                <strong>Объектно-ориентированное программирование на С++.</strong>
+            <br>Баранова И.В., Баранов С.Н., Баженова И.В., Кучунова Е.В., Толкач С.Г. (2019). <br><br>
+         В книге описываются основные концепции и принципы ООП, включая классы, объекты, наследование, 
+              полиморфизм и инкапсуляцию, специфические для C++.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="card-text">
+                <strong>Информатика.</strong>
+               <br> Федотова Е.Л., Федотов А.А. (2018). <br> <br>
+              В книге охватываются различные аспекты информатики, включая теоретические основы, методы и алгоритмы вычислений, 
+              структуры данных, основы программирования и информационные технологии.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 d-flex justify-content-left">
+              
+              <a href="https://znanium.com/read?id=380554" class="btn btn-primary" role="button">
+                Перейти к книге ООП на C++
+              </a>
+            </div>
+            <div class="col-md-6 d-flex justify-content-left">
+              
+              <a href="https://znanium.com/read?id=372368" class="btn btn-primary" role="button">
+                Перейти к книге по Информатике
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+    }
+    </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
